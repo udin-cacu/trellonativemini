@@ -1,0 +1,44 @@
+.card-badge {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+.column {
+  background: #f8f9fa;
+  border-radius: .75rem;
+  padding: .75rem;
+  min-height: 300px;
+}
+.column-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:.5rem; }
+.draggable-card {
+  background: #fff;
+  border-radius: .75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  padding: .5rem .75rem;
+  margin-bottom: .5rem;
+  cursor: grab;
+}
+.draggable-card.dragging { opacity: .6; }
+.pointer { cursor:pointer; }
+.sidebar {
+  width: 280px;
+  border-right: 1px solid #e9ecef;
+  height: calc(100vh - 56px);
+  overflow: auto;
+}
+.main {
+  height: calc(100vh - 56px);
+  overflow: auto;
+}
+/* Priority colors */
+.badge-priority-low { background:#e9ecef; color:#333; }
+.badge-priority-medium { background:#ffd966; color:#333; }
+.badge-priority-high { background:#ff6b6b; color:#fff; }
+
+/* Label colors (predefined set) */
+.label-badge { display:inline-block; padding:3px 8px; border-radius:12px; font-size:12px; margin-right:4px; margin-top:6px; }
+.label-red { background:#ff6b6b; color:#fff; }
+.label-green { background:#7bd389; color:#0b3; }
+.label-blue { background:#6bb7ff; color:#023; }
+.label-yellow { background:#ffd966; color:#222; }
+.label-purple { background:#c09cff; color:#222; }
